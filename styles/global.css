@@ -104,6 +104,12 @@ ul[role='list'] {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+
 /* Na unidade de medida em, mesmo que o usuário aumente a fonte do navegador, a fonte será 80em da definida no elemento root */
 /* 80em * 16px = 1280px */
 @media (width >= 80em) {
